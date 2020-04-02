@@ -17,15 +17,15 @@
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="./assets/demo/demo.css" rel="stylesheet" />
-
+    <!-- Nucleo Icons -->
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
 
     <title>Farmy Silva</title>
 </head>
 
-<body class="index-page">
-
+<body class="index-page sidebar-collapse">
     <!--Icon nav -->
     <ul class="nav justify-content-center fixed-top navbar-transparent">
         <li class="nav-item">
@@ -57,7 +57,7 @@
         <video autoplay muted loop id="myVideo">
             <source src="./assets/img/Lightning.mp4" type="video/mp4">
         </video>
-        <div class="filter"></div>
+        
         <div class="content-center">
             <div class="container">
                 <div class="title-brand">
@@ -70,10 +70,16 @@
                     </div>
                 </div>
                 <h2 class="presentation-subtitle text-center">Designer de Game & Engenheiro de Software </h2>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div class="d-flex align-items-center">
+                    <strong>Loading...</strong>
+                    <button class="btn btn-primary btn-simple btn-round ml-auto" type="button" disabled>
+                        <span class="spinner-grow spinner-grow-sm text-danger" role="status" aria-hidden="true"></span>                       
+                    </button>                    
+                </div>
             </div>
         </div>
         <div class="moving-clouds" style="background-image: url('./assets/img/clouds.png'); "></div>
-
     </div>
 
     <!--   Core JS Files   -->
